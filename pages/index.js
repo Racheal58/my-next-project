@@ -7,7 +7,7 @@ function Home() {
     const handleClick = (e) => {
         e.preventDefault()
         router.push('/pokemon')
-    };
+    }
 
     return (
         <>
@@ -18,7 +18,7 @@ function Home() {
             <div>Welcome, Explorer!</div>
             <button onClick={handleClick}>Click me!</button>
         </>
-    );
+    )
 }
 
 export default Home
